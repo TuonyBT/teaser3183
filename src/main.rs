@@ -4,6 +4,10 @@ fn main() {
 
     let mut magnitudes = Vec::<u32>::new();
 
+    //  The solution boils down to finding Pythagorean triplets with hypotenuse equal to the radius 50
+    //  The magnitude is equal to 2(r - d) / 2r where d is either one of the sides of a given triplet
+    //  Only values of d for which magnitude > 10% are allowed, i.e. d < 5
+
     for triplet in pythag_triplets(50) {
         for d in [triplet[0], triplet[1]] {
             if d < 45 {
