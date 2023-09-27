@@ -15,4 +15,4 @@ In B's statement, the first component refers to the amount of the circumference 
 Therefore B's statement can be expressed as theta * r^2 - 2* (1 / 2 * theta * r^2 - d * h) is a whole number
 The terms in theta cancel, so we end up with d * h is a whole number, so if d is a whole number, so must be h
 Given that r = 50, and d, h and r make up a right-angled triangle, our solution stems from Pythagorean triplets for hypotenuse r.
-C's statement limits us to cases where magnitude = 2(r - d) > 10, so we just find all solutions for which d > 5.
+C's statement limits us to cases where magnitude = 2(r - d) > 10, so we just find all solutions for which 50 - d > 5.
