@@ -12,7 +12,7 @@ fn main() {
         for d in [triplet[0], triplet[1]] {
             if d < 45 {
                 println!("d: {}", d);
-                magnitudes.push(50 - d);
+                magnitudes.push(100 - 2 * d);
             }
         }
     }
